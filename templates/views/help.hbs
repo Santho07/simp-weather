@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help</title>
+    <link rel="icon" type="image/png" href="img/icon.png">
+    <link rel="stylesheet" href="/css/about.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body class="main">
+    {{>header}}
+    <div class="main-content">
+        <section class="bar">
+            <h2>{{title}}</h2>
+        </section>
+        <section class="content">
+           <div>
+                <div class="search">
+                    <input type="text" placeholder="Search Help">
+                    <button>Search</button> <br>
+                   
+                </div>
+                <div style="margin: 3rem;">
+                    <p>Get help: <a href="http://simp-weather.herokuapp.com/help/get">Click for help!</a></p>
+                </div>
+           </div>
+
+        </section>
+    </div>
+    {{>footer}}
+</body>
+</html>
